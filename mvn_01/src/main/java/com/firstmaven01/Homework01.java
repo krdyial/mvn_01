@@ -43,8 +43,6 @@ public class Homework01 {
 		Assert.assertTrue(actualHead.equals(expectedHead));
 		
 		Actions action = new Actions(driver);
-		action.keyDown(Keys.DOWN);
-		action.keyDown(Keys.DOWN);
 		WebElement state= driver.findElement(By.id("id_state"));
 		Select select= new Select(state);
 		select.selectByValue("Florida");
