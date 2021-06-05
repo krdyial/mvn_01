@@ -60,7 +60,7 @@ public class CheckBox {
 	
 	@After
 	public void tearDown() {
-		driver.close();  //5.16.21
+		driver.close();  //day 6 -> 5.16.21
 	
 	}
 }
